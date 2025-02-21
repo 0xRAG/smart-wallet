@@ -1,0 +1,21 @@
+{
+  "name": "your-project-name",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@coinbase/coinbase-sdk": "^0.19.0",
+    "dotenv": "^16.4.7",
+    "viem": "^2.23.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
